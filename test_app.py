@@ -1,3 +1,5 @@
+from app import app   # ✅ import the Flask app
+
 def test_home():
     tester = app.test_client()
     response = tester.get('/')
